@@ -1,0 +1,257 @@
+/* Home Page Styles */
+
+/* Hero */
+.hero {
+  padding: var(--spacing-3xl) 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--spacing-2xl);
+}
+
+.hero-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #FFE0E0, #FFF3CC);
+  padding: 8px 20px;
+  border-radius: var(--radius-xl);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  line-height: 1.15;
+  margin-bottom: var(--spacing-lg);
+}
+
+.hero h1 .highlight {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  max-width: 500px;
+  margin-bottom: var(--spacing-xl);
+}
+
+.hero-features {
+  display: flex;
+  gap: var(--spacing-lg);
+}
+
+.hero-feature {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  background: var(--color-bg-card);
+  padding: 10px 16px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+}
+
+.hero-feature span:first-child {
+  font-size: 1.3rem;
+}
+
+/* Schwebende Bücher Animation */
+.hero-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+  position: relative;
+}
+
+.floating-books {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.float-book {
+  position: absolute;
+  font-size: 3.5rem;
+  animation: float 3s ease-in-out infinite;
+  filter: drop-shadow(0 8px 16px rgba(0,0,0,0.1));
+}
+
+.fb-1 { top: 10%; left: 10%; animation-delay: 0s; font-size: 4.5rem; }
+.fb-2 { top: 5%; right: 15%; animation-delay: 0.5s; font-size: 3rem; }
+.fb-3 { bottom: 30%; left: 5%; animation-delay: 1s; }
+.fb-4 { bottom: 10%; right: 10%; animation-delay: 1.5s; font-size: 4rem; }
+.fb-5 { top: 40%; left: 45%; animation-delay: 0.7s; font-size: 3.5rem; }
+
+/* Katalog */
+.catalog-section {
+  padding: var(--spacing-3xl) 0;
+}
+
+.catalog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-2xl);
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.catalog-header h2 {
+  font-size: 2rem;
+}
+
+.catalog-filters {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+.filter-select {
+  padding: 10px 16px;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  background: var(--color-bg-card);
+  cursor: pointer;
+  color: var(--color-text);
+  transition: border-color var(--transition-fast);
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.empty-state {
+  text-align: center;
+  padding: var(--spacing-3xl);
+}
+
+.empty-icon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: var(--spacing-md);
+}
+
+/* So funktioniert's */
+.how-it-works {
+  padding: var(--spacing-3xl) 0;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  margin-bottom: var(--spacing-2xl);
+  font-size: 2rem;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-xl);
+}
+
+.step-card {
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  border: 1px solid var(--color-border);
+  position: relative;
+  opacity: 0;
+  transition: transform var(--transition-normal);
+}
+
+.step-card:hover {
+  transform: translateY(-4px);
+}
+
+.step-number {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 28px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.step-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: var(--spacing-md);
+}
+
+.step-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.step-card p {
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    margin: 0 auto var(--spacing-xl);
+  }
+
+  .hero-features {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-visual {
+    min-height: 200px;
+  }
+
+  .floating-books {
+    width: 200px;
+    height: 200px;
+  }
+
+  .catalog-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .steps-grid {
+    grid-template-columns: 1fr;
+  }
+}

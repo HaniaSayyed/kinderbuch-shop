@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "de": "Die magische Reise",
+      "en": "The Magical Journey"
+    },
+    "description": {
+      "de": "Begleite {childName} auf eine fantastische Reise durch verzauberte Wälder und geheimnisvolle Länder. Ein Abenteuer voller Mut und Freundschaft!",
+      "en": "Join {childName} on a fantastic journey through enchanted forests and mysterious lands. An adventure full of courage and friendship!"
+    },
+    "cover": "🏰",
+    "ageRange": "3-6",
+    "themes": ["adventure", "friendship", "courage"],
+    "price": 29.99,
+    "availableLanguages": ["de", "en"],
+    "pageCount": 24,
+    "pages": {
+      "de": [
+        { "pageNumber": 1, "text": "Es war einmal ein Kind namens {childName}, das in einem kleinen Haus am Rande eines großen Waldes lebte.", "illustration": "🏡🌲" },
+        { "pageNumber": 2, "text": "Eines Morgens fand {childName} eine glitzernde Karte unter dem Kopfkissen. 'Folge dem goldenen Pfad', stand darauf.", "illustration": "🗺️✨" },
+        { "pageNumber": 3, "text": "{childName} packte einen kleinen Rucksack und machte sich mutig auf den Weg in den Wald.", "illustration": "🎒🌳" },
+        { "pageNumber": 4, "text": "Im Wald traf {childName} einen freundlichen Fuchs. 'Ich zeige dir den Weg', sagte der Fuchs.", "illustration": "🦊🌿" },
+        { "pageNumber": 5, "text": "Zusammen überquerten sie einen glitzernden Bach und kletterten über moosbedeckte Felsen.", "illustration": "🌊🪨" },
+        { "pageNumber": 6, "text": "Am Ende des Pfades fand {childName} einen wunderschönen Garten voller bunter Blumen und Schmetterlinge.", "illustration": "🦋🌸" }
+      ],
+      "en": [
+        { "pageNumber": 1, "text": "Once upon a time, there was a child named {childName} who lived in a small house at the edge of a great forest.", "illustration": "🏡🌲" },
+        { "pageNumber": 2, "text": "One morning, {childName} found a glittering map under the pillow. 'Follow the golden path,' it read.", "illustration": "🗺️✨" },
+        { "pageNumber": 3, "text": "{childName} packed a small backpack and bravely set off into the forest.", "illustration": "🎒🌳" },
+        { "pageNumber": 4, "text": "In the forest, {childName} met a friendly fox. 'I'll show you the way,' said the fox.", "illustration": "🦊🌿" },
+        { "pageNumber": 5, "text": "Together, they crossed a sparkling brook and climbed over moss-covered rocks.", "illustration": "🌊🪨" },
+        { "pageNumber": 6, "text": "At the end of the path, {childName} found a beautiful garden full of colorful flowers and butterflies.", "illustration": "🦋🌸" }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": {
+      "de": "Sterne zählen mit {childName}",
+      "en": "Counting Stars with {childName}"
+    },
+    "description": {
+      "de": "{childName} entdeckt die Wunder des Nachthimmels und lernt dabei spielerisch die Zahlen von 1 bis 10. Ein bezauberndes Gute-Nacht-Buch!",
+      "en": "{childName} discovers the wonders of the night sky and playfully learns numbers from 1 to 10. A charming bedtime book!"
+    },
+    "cover": "🌙",
+    "ageRange": "2-4",
+    "themes": ["learning", "bedtime", "numbers"],
+    "price": 24.99,
+    "availableLanguages": ["de", "en"],
+    "pageCount": 20,
+    "pages": {
+      "de": [
+        { "pageNumber": 1, "text": "{childName} lag im Bett und schaute aus dem Fenster. Der Himmel war voller Sterne!", "illustration": "🛏️🌃" },
+        { "pageNumber": 2, "text": "'Eins', zählte {childName} und sah den ersten hellen Stern am Himmel leuchten.", "illustration": "⭐" },
+        { "pageNumber": 3, "text": "'Zwei, drei', flüsterte {childName}, als zwei weitere Sterne auftauchten.", "illustration": "⭐⭐⭐" },
+        { "pageNumber": 4, "text": "Bald waren es so viele Sterne, dass {childName} die Augen zufielen.", "illustration": "😴🌟" },
+        { "pageNumber": 5, "text": "Im Traum tanzte {childName} zwischen den Sternen und spielte mit dem Mond.", "illustration": "🌙💫" },
+        { "pageNumber": 6, "text": "Am nächsten Morgen wachte {childName} glücklich auf. 'Heute Nacht zähle ich weiter!'", "illustration": "🌅😊" }
+      ],
+      "en": [
+        { "pageNumber": 1, "text": "{childName} lay in bed and looked out the window. The sky was full of stars!", "illustration": "🛏️🌃" },
+        { "pageNumber": 2, "text": "'One,' counted {childName}, seeing the first bright star shining in the sky.", "illustration": "⭐" },
+        { "pageNumber": 3, "text": "'Two, three,' whispered {childName}, as two more stars appeared.", "illustration": "⭐⭐⭐" },
+        { "pageNumber": 4, "text": "Soon there were so many stars that {childName}'s eyes began to close.", "illustration": "😴🌟" },
+        { "pageNumber": 5, "text": "In a dream, {childName} danced among the stars and played with the moon.", "illustration": "🌙💫" },
+        { "pageNumber": 6, "text": "The next morning, {childName} woke up happy. 'Tonight I'll keep counting!'", "illustration": "🌅😊" }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "title": {
+      "de": "Der kleine Drache und {childName}",
+      "en": "The Little Dragon and {childName}"
+    },
+    "description": {
+      "de": "{childName} findet ein Drachenei und erlebt mit dem kleinen Drachen ein unvergessliches Abenteuer. Eine Geschichte über Verantwortung und Liebe!",
+      "en": "{childName} finds a dragon egg and experiences an unforgettable adventure with the little dragon. A story about responsibility and love!"
+    },
+    "cover": "🐉",
+    "ageRange": "4-7",
+    "themes": ["fantasy", "responsibility", "love"],
+    "price": 34.99,
+    "availableLanguages": ["de", "en"],
+    "pageCount": 28,
+    "pages": {
+      "de": [
+        { "pageNumber": 1, "text": "{childName} fand im Garten ein seltsames, schimmerndes Ei. Es war warm und leuchtete in allen Farben.", "illustration": "🥚✨🌈" },
+        { "pageNumber": 2, "text": "Plötzlich knackte die Schale und ein kleiner, grüner Drache schaute {childName} mit großen Augen an.", "illustration": "🐲👀" },
+        { "pageNumber": 3, "text": "'Hallo!', piepste der kleine Drache. 'Ich bin Funki! Bist du mein Freund?'", "illustration": "🐲💚" },
+        { "pageNumber": 4, "text": "{childName} und Funki spielten den ganzen Tag zusammen. Funki lernte sogar, kleine Flammen zu pusten!", "illustration": "🐲🔥" },
+        { "pageNumber": 5, "text": "Aber Funki hatte Heimweh. {childName} beschloss, Funki zu seiner Familie in den Bergen zu bringen.", "illustration": "🏔️🐲😢" },
+        { "pageNumber": 6, "text": "Am Drachenberg angekommen, bedankte sich Funki. 'Du bist der beste Freund der Welt, {childName}!'", "illustration": "🐲❤️🏔️" }
+      ],
+      "en": [
+        { "pageNumber": 1, "text": "{childName} found a strange, shimmering egg in the garden. It was warm and glowed in all colors.", "illustration": "🥚✨🌈" },
+        { "pageNumber": 2, "text": "Suddenly the shell cracked and a small, green dragon looked at {childName} with big eyes.", "illustration": "🐲👀" },
+        { "pageNumber": 3, "text": "'Hello!' chirped the little dragon. 'I'm Sparky! Are you my friend?'", "illustration": "🐲💚" },
+        { "pageNumber": 4, "text": "{childName} and Sparky played together all day. Sparky even learned to blow little flames!", "illustration": "🐲🔥" },
+        { "pageNumber": 5, "text": "But Sparky was homesick. {childName} decided to bring Sparky to his family in the mountains.", "illustration": "🏔️🐲😢" },
+        { "pageNumber": 6, "text": "When they reached Dragon Mountain, Sparky said thank you. 'You're the best friend in the world, {childName}!'", "illustration": "🐲❤️🏔️" }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "title": {
+      "de": "{childName} und das Unterwasser-Abenteuer",
+      "en": "{childName} and the Underwater Adventure"
+    },
+    "description": {
+      "de": "Tauche mit {childName} in die Tiefen des Ozeans und entdecke farbenfrohe Korallenriffe, lustige Meeresbewohner und einen versunkenen Schatz!",
+      "en": "Dive with {childName} into the depths of the ocean and discover colorful coral reefs, funny sea creatures, and a sunken treasure!"
+    },
+    "cover": "🐠",
+    "ageRange": "3-6",
+    "themes": ["ocean", "discovery", "nature"],
+    "price": 29.99,
+    "availableLanguages": ["de", "en"],
+    "pageCount": 24,
+    "pages": {
+      "de": [
+        { "pageNumber": 1, "text": "{childName} stand am Strand und beobachtete die Wellen. 'Was ist wohl unter dem Wasser?', fragte sich {childName}.", "illustration": "🏖️🌊" },
+        { "pageNumber": 2, "text": "Eine freundliche Schildkröte schwamm heran. 'Komm mit mir! Ich zeige dir die Unterwasserwelt!'", "illustration": "🐢💙" },
+        { "pageNumber": 3, "text": "{childName} tauchte ein und sah bunte Fische, die zwischen Korallen tanzten.", "illustration": "🐟🪸🐠" },
+        { "pageNumber": 4, "text": "Ein lustiger Oktopus winkte mit allen acht Armen. 'Willkommen in meinem Garten!'", "illustration": "🐙🌊" },
+        { "pageNumber": 5, "text": "Tief unten fand {childName} eine alte Schatzkiste. Darin lag eine wunderschöne Perle.", "illustration": "🧳💎" },
+        { "pageNumber": 6, "text": "{childName} kehrte an die Oberfläche zurück. 'Das war der beste Tag aller Zeiten!'", "illustration": "🏖️😊🐚" }
+      ],
+      "en": [
+        { "pageNumber": 1, "text": "{childName} stood on the beach watching the waves. 'I wonder what's under the water?' thought {childName}.", "illustration": "🏖️🌊" },
+        { "pageNumber": 2, "text": "A friendly turtle swam over. 'Come with me! I'll show you the underwater world!'", "illustration": "🐢💙" },
+        { "pageNumber": 3, "text": "{childName} dove in and saw colorful fish dancing among the coral.", "illustration": "🐟🪸🐠" },
+        { "pageNumber": 4, "text": "A funny octopus waved with all eight arms. 'Welcome to my garden!'", "illustration": "🐙🌊" },
+        { "pageNumber": 5, "text": "Deep down, {childName} found an old treasure chest. Inside lay a beautiful pearl.", "illustration": "🧳💎" },
+        { "pageNumber": 6, "text": "{childName} returned to the surface. 'That was the best day ever!'", "illustration": "🏖️😊🐚" }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "title": {
+      "de": "{childName} fliegt zum Mond",
+      "en": "{childName} Flies to the Moon"
+    },
+    "description": {
+      "de": "{childName} baut eine Rakete aus Kartons und fliegt damit bis zum Mond! Dort warten lustige Mondhasen und ein galaktisches Picknick.",
+      "en": "{childName} builds a rocket from cardboard boxes and flies all the way to the moon! There, funny moon rabbits and a galactic picnic await."
+    },
+    "cover": "🚀",
+    "ageRange": "3-5",
+    "themes": ["space", "imagination", "creativity"],
+    "price": 27.99,
+    "availableLanguages": ["de", "en"],
+    "pageCount": 22,
+    "pages": {
+      "de": [
+        { "pageNumber": 1, "text": "{childName} hatte einen großen Karton und eine noch größere Idee: 'Ich baue eine Rakete!'", "illustration": "📦🚀" },
+        { "pageNumber": 2, "text": "Mit Farben und Glitzer wurde der Karton zur schönsten Rakete der Welt. 3... 2... 1... Start!", "illustration": "🎨✨🚀" },
+        { "pageNumber": 3, "text": "{childName} flog an den Sternen vorbei, winkte der Sonne zu und landete sanft auf dem Mond.", "illustration": "🌟☀️🌙" },
+        { "pageNumber": 4, "text": "Auf dem Mond warteten drei lustige Mondhasen. 'Endlich Besuch! Komm, wir machen ein Picknick!'", "illustration": "🐰🌙🧺" },
+        { "pageNumber": 5, "text": "Sie aßen Mondkekse und tranken Sternenlimonade. {childName} lachte so viel wie noch nie.", "illustration": "🍪⭐🥤" },
+        { "pageNumber": 6, "text": "'Ich komme bald wieder!', rief {childName} und flog glücklich nach Hause zurück.", "illustration": "🚀🏠💫" }
+      ],
+      "en": [
+        { "pageNumber": 1, "text": "{childName} had a big cardboard box and an even bigger idea: 'I'll build a rocket!'", "illustration": "📦🚀" },
+        { "pageNumber": 2, "text": "With paint and glitter, the box became the most beautiful rocket in the world. 3... 2... 1... Blast off!", "illustration": "🎨✨🚀" },
+        { "pageNumber": 3, "text": "{childName} flew past the stars, waved at the sun, and landed softly on the moon.", "illustration": "🌟☀️🌙" },
+        { "pageNumber": 4, "text": "On the moon, three funny moon rabbits were waiting. 'Finally a visitor! Come, let's have a picnic!'", "illustration": "🐰🌙🧺" },
+        { "pageNumber": 5, "text": "They ate moon cookies and drank starlight lemonade. {childName} laughed more than ever before.", "illustration": "🍪⭐🥤" },
+        { "pageNumber": 6, "text": "'I'll come back soon!' called {childName}, flying happily back home.", "illustration": "🚀🏠💫" }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "title": {
+      "de": "{childName} und die Tierparade",
+      "en": "{childName} and the Animal Parade"
+    },
+    "description": {
+      "de": "Alle Tiere des Waldes laden {childName} zu einer großen Parade ein. Jedes Tier hat ein besonderes Talent – und {childName} auch!",
+      "en": "All the animals of the forest invite {childName} to a grand parade. Every animal has a special talent – and so does {childName}!"
+    },
+    "cover": "🦁",
+    "ageRange": "2-5",
+    "themes": ["animals", "talents", "self-confidence"],
+    "price": 26.99,
+    "availableLanguages": ["de", "en"],
+    "pageCount": 20,
+    "pages": {
+      "de": [
+        { "pageNumber": 1, "text": "Eines Tages bekam {childName} eine Einladung: 'Du bist zur großen Tierparade eingeladen!'", "illustration": "💌🎪" },
+        { "pageNumber": 2, "text": "Der Bär konnte jonglieren, der Papagei sang wunderschön und der Elefant tanzte Ballett.", "illustration": "🐻🦜🐘" },
+        { "pageNumber": 3, "text": "'Und was kannst du?', fragten die Tiere {childName} neugierig.", "illustration": "🤔🦊🐰" },
+        { "pageNumber": 4, "text": "{childName} überlegte kurz und fing dann an, die schönste Geschichte zu erzählen, die die Tiere je gehört hatten.", "illustration": "📖✨🐾" },
+        { "pageNumber": 5, "text": "Alle Tiere hörten gebannt zu. Am Ende klatschten sie begeistert mit Pfoten, Flügeln und Hufen.", "illustration": "👏🐾🦋" },
+        { "pageNumber": 6, "text": "'Du bist unser Ehrengast!', riefen die Tiere. Und {childName} war der Star der Parade!", "illustration": "🌟🎉🦁" }
+      ],
+      "en": [
+        { "pageNumber": 1, "text": "One day, {childName} received an invitation: 'You're invited to the grand Animal Parade!'", "illustration": "💌🎪" },
+        { "pageNumber": 2, "text": "The bear could juggle, the parrot sang beautifully, and the elephant danced ballet.", "illustration": "🐻🦜🐘" },
+        { "pageNumber": 3, "text": "'And what can you do?' the animals asked {childName} curiously.", "illustration": "🤔🦊🐰" },
+        { "pageNumber": 4, "text": "{childName} thought for a moment and then began to tell the most beautiful story the animals had ever heard.", "illustration": "📖✨🐾" },
+        { "pageNumber": 5, "text": "All the animals listened spellbound. At the end, they clapped excitedly with paws, wings, and hooves.", "illustration": "👏🐾🦋" },
+        { "pageNumber": 6, "text": "'You are our guest of honor!' the animals cheered. And {childName} was the star of the parade!", "illustration": "🌟🎉🦁" }
+      ]
+    }
+  }
+]
