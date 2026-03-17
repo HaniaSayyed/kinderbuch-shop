@@ -7,8 +7,9 @@ import './BookCard.css';
  * 
  * @param {Object} book - Buchdaten vom Backend
  * @param {number} index - Index für gestaffelte Animation
+ * @param {string} selectedLang - Ausgewählte Sprache
  */
-function BookCard({ book, index = 0 }) {
+function BookCard({ book, index = 0, selectedLang = 'de' }) {
   // Theme-Farben für verschiedene Bücher
   const themeColors = [
     { bg: '#FFE0E0', accent: '#FF6B6B' },
@@ -41,10 +42,10 @@ function BookCard({ book, index = 0 }) {
       {/* Info-Bereich */}
       <div className="book-card-info">
         <h3 className="book-card-title">
-          {book.title.de}
+          {book.title[selectedLang] || book.title.de}
         </h3>
         <p className="book-card-desc">
-          {book.description.de.replace(/{childName}/g, 'Ihr Kind')}
+          {(book.description[selectedLang] || book.description.de).replace(/{childName}/g, selectedLang === 'en' ? 'Your child' : 'Ihr Kind')}
         </p>
         
         {/* Tags */}
