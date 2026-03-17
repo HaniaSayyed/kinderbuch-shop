@@ -77,12 +77,12 @@ function About() {
             <div className="team-grid">
               <div className="team-member card">
                 <div className="member-avatar">👩‍💻</div>
-                <h3>Teammitglied 1</h3>
+                <h3>Hania Sayyed</h3>
                 <p>Frontend-Entwicklung &amp; Design</p>
               </div>
               <div className="team-member card">
-                <div className="member-avatar">👨‍💻</div>
-                <h3>Teammitglied 2</h3>
+                <div className="member-avatar">👩‍💻</div>
+                <h3>Canan Balikci</h3>
                 <p>Backend-Entwicklung &amp; REST-API</p>
               </div>
             </div>
