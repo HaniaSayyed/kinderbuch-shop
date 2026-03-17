@@ -111,7 +111,7 @@ function BookDetail() {
             <h1>{book.title[selectedLang]}</h1>
 
             <p className="book-detail-desc">
-              {book.description[selectedLang].replace(/{childName}/g, 'Ihr Kind')}
+              {book.description[selectedLang].replace(/{childName}/g, selectedLang === 'en' ? 'Your child' : 'Ihr Kind')}
             </p>
 
             {/* Themen */}
@@ -154,7 +154,7 @@ function BookDetail() {
                   {book.pages[selectedLang][0].illustration}
                 </span>
                 <p className="preview-text">
-                  „{book.pages[selectedLang][0].text.replace(/{childName}/g, '[Name des Kindes]')}"
+                  „{book.pages[selectedLang][0].text.replace(/{childName}/g, selectedLang === 'en' ? '[Child name]' : '[Name des Kindes]')}"
                 </p>
               </div>
             </div>
