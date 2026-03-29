@@ -113,7 +113,7 @@ kinderbuch-shop/
 
 ## Autoren
 
-- Teammitglied 1
-- Teammitglied 2
+- Hania Sayyed
+- Canan Balikci 
 
 Erstellt im Rahmen des Moduls Webprogrammierung, 2026.

@@ -115,7 +115,7 @@ function Home() {
         ) : (
           <div className="grid-3">
             {books.map((book, index) => (
-              <BookCard key={book.id} book={book} index={index} />
+              <BookCard key={book.id} book={book} index={index} selectedLang={filter.lang || 'de'} />
             ))}
           </div>
         )}

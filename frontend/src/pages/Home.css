@@ -79,22 +79,22 @@
 
 .floating-books {
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
 }
 
 .float-book {
   position: absolute;
-  font-size: 3.5rem;
+  font-size: 4rem;
   animation: float 3s ease-in-out infinite;
   filter: drop-shadow(0 8px 16px rgba(0,0,0,0.1));
 }
 
-.fb-1 { top: 10%; left: 10%; animation-delay: 0s; font-size: 4.5rem; }
-.fb-2 { top: 5%; right: 15%; animation-delay: 0.5s; font-size: 3rem; }
-.fb-3 { bottom: 30%; left: 5%; animation-delay: 1s; }
-.fb-4 { bottom: 10%; right: 10%; animation-delay: 1.5s; font-size: 4rem; }
-.fb-5 { top: 40%; left: 45%; animation-delay: 0.7s; font-size: 3.5rem; }
+.fb-1 { top: 5%; left: 5%; animation-delay: 0s; font-size: 5rem; }
+.fb-2 { top: 0%; right: 20%; animation-delay: 0.5s; font-size: 3.5rem; }
+.fb-3 { bottom: 35%; left: 0%; animation-delay: 1s; }
+.fb-4 { bottom: 5%; right: 5%; animation-delay: 1.5s; font-size: 4.5rem; }
+.fb-5 { top: 45%; left: 50%; animation-delay: 0.7s; font-size: 4rem; }
 
 /* Katalog */
 .catalog-section {
